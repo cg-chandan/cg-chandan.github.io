@@ -29,11 +29,13 @@ header h1 {
 
 nav ul {
     list-style: none;
+    
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
+    float: inline-end;
 }
 
 nav ul li a {
@@ -65,10 +67,11 @@ footer {
 #profile {
     display: inline-block;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     object-fit:cover;
     object-position: center right;
 
     background-position: center;
 }
+
